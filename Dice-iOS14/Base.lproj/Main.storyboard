@@ -26,7 +26,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="408.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="lJU-P5-zd1">
-                                                <rect key="frame" x="81.5" y="154" width="251" height="100.5"/>
+                                                <rect key="frame" x="81.5" y="184" width="251" height="100.5"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dice1" translatesAutoresizingMaskIntoConstraints="NO" id="B1G-oN-JUA">
                                                         <rect key="frame" x="0.0" y="0.0" width="100.5" height="100.5"/>
@@ -37,8 +37,11 @@
                                                 </subviews>
                                             </stackView>
                                         </subviews>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" notEnabled="YES"/>
+                                        </accessibility>
                                         <constraints>
-                                            <constraint firstItem="lJU-P5-zd1" firstAttribute="centerY" secondItem="O1S-G3-hGW" secondAttribute="centerY" id="895-z6-6PB"/>
+                                            <constraint firstItem="lJU-P5-zd1" firstAttribute="centerY" secondItem="O1S-G3-hGW" secondAttribute="centerY" constant="30" id="895-z6-6PB"/>
                                             <constraint firstItem="lJU-P5-zd1" firstAttribute="centerX" secondItem="O1S-G3-hGW" secondAttribute="centerX" id="yYu-sy-caI"/>
                                         </constraints>
                                     </view>
