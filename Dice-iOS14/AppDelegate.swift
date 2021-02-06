@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Dice-iOS14
 //
-//  Created by Dylan Park on 21/1/21.
+//  Copyright © 2021 Dylan Park.
 //
 
 import UIKit
